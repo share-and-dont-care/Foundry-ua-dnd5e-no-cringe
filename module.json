@@ -4,23 +4,23 @@
   "description": "Неофіційний український переклад DnD 5e для Foundry Virtual Tabletop. ",
   "authors": [
     {
-      "name": "GMonline",
-      "discord": "VladDracula#9198",
-      "url": "https://github.com/GMonlineua",
+      "name": "bruh",
+      "discord": "pavuk_xd",
+      "url": "https://github.com/share-and-dont-care/Foundry-ua-dnd5e-no-cringe",
       "flags": {}
     }
   ],
-  "version": "0.9.6",
+  "version": "0.1.0",
   "compatibility": {
     "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "verified": 12,
+    "maximum": 12
   },
-  "url": "https://github.com/GMonlineua/Foundry-ua-dnd5e",
-  "license": "https://github.com/GMonlineua/Foundry-ua-dnd5e/blob/master/LICENSE.md",
-  "readme": "https://github.com/GMonlineua/Foundry-ua-dnd5e/blob/master/README.md",
-  "manifest": "https://raw.githubusercontent.com/GMonlineua/Foundry-ua-dnd5e/master/module.json",
-  "download": "https://github.com/GMonlineua/Foundry-ua-dnd5e/releases/download/v0.9.6/version-0.9.6.zip",
+  "url": "https://github.com/share-and-dont-care/Foundry-ua-dnd5e-no-cringe",
+  "license": "https://github.com/share-and-dont-care/Foundry-ua-dnd5e-no-cringe/blob/master/LICENSE.md",
+  "readme": "https://github.com/share-and-dont-care/Foundry-ua-dnd5e-no-cringe/blob/master/README.md",
+  "manifest": "https://raw.githubusercontent.com/share-and-dont-care/Foundry-ua-dnd5e-no-cringe/master/module.json",
+  "download": "https://github.com/share-and-dont-care/Foundry-ua-dnd5e-no-cringe/releases/download/v0.9.6/version-0.9.6.zip",
   "relationships": {
     "systems": [
       {
@@ -28,7 +28,7 @@
         "type": "system",
         "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
         "compatibility": {
-          "verified": "2.0.3"
+          "verified": "3.3.1"
         }
       }
     ]
@@ -41,71 +41,6 @@
       "lang": "uk",
       "name": "Українська (Ukrainian)",
       "path": "lang/uk.json",
-      "flags": {}
-    }
-  ],
-  "packs": [
-    {
-      "name": "classes-srd-uk",
-      "label": "Класи",
-      "path": "packs/classes.db",
-      "type": "Item",
-      "private": false,
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
-      "name": "class-features-srd-uk",
-      "label": "Класові Вміння",
-      "path": "packs/class-features.db",
-      "type": "Item",
-      "private": false,
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
-      "name": "race-srd-uk",
-      "label": "Раси",
-      "path": "packs/races.db",
-      "type": "Item",
-      "private": false,
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
-      "name": "race-features-srd-uk",
-      "label": "Расові Вміння",
-      "path": "packs/race-features.db",
-      "type": "Item",
-      "private": false,
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
-      "name": "spells-srd-uk",
-      "label": "Заклинання",
-      "path": "packs/spells.db",
-      "type": "Item",
-      "private": false,
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
-      "name": "items-srd-uk",
-      "label": "Предмети",
-      "path": "packs/items.db",
-      "type": "Item",
-      "private": false,
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
-      "name": "trade-goods-srd-uk",
-      "label": "Товари",
-      "path": "packs/trade-goods.db",
-      "type": "Item",
-      "private": false,
-      "system": "dnd5e",
       "flags": {}
     }
   ]
